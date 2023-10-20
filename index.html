@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="restaurante.js"></script>
+    <h1 style="text-align: center;">restaurante</h1>
+    <div class="caja">
+    
+    <select class="form-selct" aria-label="defaul select example" id="platos">
+    <option selected>Tipo de plato</option>
+    <option value="1">caldo de costilla</option>
+    <option value="2">bandeja paisa</option>
+    <option value="3">sushi</option>
+    <option value="4">chuletas de cerdo</option>
+    <option value="5">arepas rellenas</option>
+    </select>
+    <br>
+
+    <input type="number" id="n1" class="form-control" placeholder="numero de platos"/> <br/>
+    
+    <select class="form-selct" aria-label="defaul select example" id="bebidas">
+    <option selected>Tipo de bebidas</option>
+    <option value="1">refajo</option>
+    <option value="2">champus</option>
+    <option value="3">limonada</option>
+    <option value="4">cafe</option>
+    <option value="5">mojito cubano</option>
+    </select>
+    <br>
+
+    <input type="number" id="n2" class="form-control" placeholder="numero de bebidas"/> <br/>
+
+    <button onclick="mostrar()" class="btn btn-outline-dark">total a pagar</button>
+    
+    <div class="alert alert-warning alert-dismissible fade show" role="alert" id="respuesta">
+    <strong id="resultado"></strong>
+    </div>
+
+</body>
+</html>

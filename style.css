@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+    color: #e0d87a;
+    font-size: 500%; 
+}
+
+.caja {
+    max-width: 500px;
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #fadff4; 
+    border-radius: 30px; 
+}
+
+
+body {
+    background-image: url('restaurante.jpg'); 
+    background-size: cover;
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.select, .form-control {
+    width: 31%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 5px solid #d4cecf;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+.btn {
+    background-color: #c8edd2; 
+    color: rgb(31, 33, 31); 
+    padding: 10px 30px; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #eac0b8; 
+}
+
+
+.form-selct {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #908f8f;
+    border-radius: 4px;
+    background-color: #ebd5dd; 
+}
+
+
+.form-selct option {
+    font-size: 15px; 
+}
+
+
+.form-control {
+    font-size: 15px; 
+}
+
+
+#platos option {
+    font-size: 15px; 
+}
