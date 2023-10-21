@@ -1,9 +1,11 @@
 h1 {
-    text-align: center;
-    color: #e0d87a;
-    font-size: 500%; 
+/*estilos para el titulo "restaurante"*/ 
+    text-align: center; 
+    color: #e0d87a; 
+    font-size: 500%;  
 }
 
+/*estilos para la clase (caja)*/ 
 .caja {
     max-width: 500px;
     margin: 0 auto; 
@@ -12,9 +14,9 @@ h1 {
     border-radius: 30px; 
 }
 
-
+/*estilos donde mostramos el fondo del cuerpo de la imagen */ 
 body {
-    background-image: url('restaurante.jpg'); 
+    background-image: url('restaurante.jpg'); /*ruta de la imagen de fondo*/  
     background-size: cover;
     background-attachment: fixed; 
     background-repeat: no-repeat; 
@@ -22,6 +24,7 @@ body {
 
 }
 
+/*estilos para elementos  de seleccion "platos,bebidas" y de entrada "cantidad" */ 
 .select, .form-control {
     width: 31%;
     padding: 15px;
@@ -31,7 +34,7 @@ body {
     text-align: center;
 }
 
-
+/*estilos para el boton "total a pagar"*/ 
 .btn {
     background-color: #c8edd2; 
     color: rgb(31, 33, 31); 
@@ -41,11 +44,12 @@ body {
     cursor: pointer;
 }
 
+ 
 .btn:hover {
     background-color: #eac0b8; 
 }
 
-
+/*estilos para la seleccion de platos y bebidas*/ 
 .form-selct {
     width: 100%;
     padding: 10px;
@@ -55,17 +59,17 @@ body {
     background-color: #ebd5dd; 
 }
 
-
+/*estilos para seleccion de opciones*/ 
 .form-selct option {
     font-size: 15px; 
 }
 
-
+/*estilos donde podemos aumentar el tamaño de fuente para el campo cantidad*/ 
 .form-control {
     font-size: 15px; 
 }
 
-
+/*estilo donde podemos aumentar el tamaño de fuente de la opcion platos*/ 
 #platos option {
     font-size: 15px; 
 }
